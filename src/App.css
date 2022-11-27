@@ -11,11 +11,11 @@
 
 .subheading {
   background-color: #ddebf7;
-  width: 80%;
-  height: 50px;
+  width: 90%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 45px;
-  padding: 15px;
+  padding: 5px;
 }

@@ -61,7 +61,6 @@ function Chart() {
             domain={[-1000, 7000]}
             tickCount={9}
             fontWeight={"bold"}
-            fill={"#000000"}
             tick={{ fill: "#000" }}
           />
           <Tooltip />
