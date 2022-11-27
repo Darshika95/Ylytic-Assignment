@@ -23,7 +23,7 @@ function Chart() {
       subscriptionData.map((item) => {
         item.subsDiff = item.subsGained - item.subsLost; //Calculating net gain of subscriber
         item.subsLost = item.subsLost * -1; //negating lost subs for negative chart
-        item.weekNo = "W" + item.weekNo; //concatening label for X axis eg."W14"
+        item.weekNo = "W" + item.weekNo; //concatenating label for X axis eg."W14"
         return item;
       })
     );
@@ -64,7 +64,6 @@ function Chart() {
             tick={{ fill: "#000" }}
           />
           <Tooltip />
-
           <Legend formatter={renderLegend} iconSize={20} />
           <ReferenceLine y={0} stroke="#e7e7e7" />
 
